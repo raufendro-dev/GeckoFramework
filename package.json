@@ -1,0 +1,20 @@
+{
+  "name": "gecko-framework",
+  "version": "1.0.0",
+  "description": "Express-based secure backend framework",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "bin": {
+    "gecko": "./gecko.js"
+  },
+  "dependencies": {
+    "dotenv": "^17.2.1",
+    "express": "^5.1.0",
+    "inquirer": "^8.2.6",
+    "jsonwebtoken": "^9.0.2",
+    "mysql2": "^3.14.3",
+    "swagger-ui-express": "^5.0.1"
+  }
+}
